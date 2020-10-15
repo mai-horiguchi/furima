@@ -18,7 +18,7 @@ class User < ApplicationRecord
     validates :first_name
     validates :last_name
   end
-　　# with_options:1つの条件を複数のバリデーションで共用できるときに使用する
+  # with_options:1つの条件を複数のバリデーションで共用できるときに使用する
 
 
   # 全角のカタカナを使用していないか検証
